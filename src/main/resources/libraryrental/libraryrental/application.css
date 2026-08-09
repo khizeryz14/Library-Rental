@@ -1,0 +1,188 @@
+#messageLabel {
+    -fx-text-fill: #901515;
+    -fx-font-size: 16;
+    -fx-font-family: Impact;
+    -fx-font-weight: 600;
+}
+#authorLabel {
+    -fx-text-fill: #901515;
+}
+#costLabel:hover {
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+#userImage:hover {
+    -fx-cursor: hand;
+}
+#invalidDateMessage {
+    -fx-text-fill: red;
+    -fx-alignment: center;
+}
+#backButton:hover {
+    -fx-cursor: hand;
+}
+.label-text {
+    -fx-font-size: 16;
+    -fx-font-weight: 600;
+}
+.main-pane {
+    -fx-background-color: #ded3a8;
+    -fx-border-width: 1;
+    -fx-border-color: #901515;
+}
+.input-label {
+    -fx-border-width: 1;
+    -fx-border-color: blue;
+    -fx-border-radius: 4;
+    -fx-border-block: 0;
+
+}
+
+.login{
+    -fx-background-color: #dae7f9;
+    -fx-min-width: 150;
+    -fx-cursor: hand;
+    -fx-border-color: #0734a4;
+    -fx-border-radius: 5;
+}
+.login:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #3293ed;
+    -fx-text-fill: white;
+}
+.scn-2-header-pane {
+-fx-background-color: #eddcdc ;
+}
+.scn-2-logout {
+    -fx-background-color: #ffffff;
+    -fx-min-width: 150;
+    -fx-cursor: hand;
+    -fx-border-color: #d71f2b;
+    -fx-border-radius: 5;
+}
+.scn-2-logout:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #f24f4f;
+    -fx-text-fill: white;
+
+}
+.scn-2-btn{
+    -fx-cursor: hand;
+    -fx-font-family: "Franklin Gothic Medium";
+    -fx-font-weight: 700;
+    -fx-min-width: 140;
+    -fx-min-height: 35;
+    -fx-background-color: #eddcdc;
+    -fx-border-color:#d71f2b;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+.scn-2-btn:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #901515;
+}
+.cart-pane {
+    -fx-background-color: #EDDCDCFF;
+    -fx-border-color: #901515;
+    -fx-border-radius: 50;
+}
+.cart-pane:hover {
+    -fx-background-radius: 50;
+    -fx-background-color: white;
+}
+.scn-3-pane{
+    -fx-background-color: #eae2cb;
+}
+.scn-3-btn{
+    -fx-background-color:#ded3a8;
+    -fx-min-width: 150;
+    -fx-border-color: #0734a4;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+.scn-3-btn:hover{
+    -fx-background-color: #3293ed;
+    -fx-text-fill: white;
+}
+.scn-3-btn-no-opacity {
+    -fx-background-color: #dae7f9;
+    -fx-min-width: 150;
+    -fx-cursor: pointer !important;
+    -fx-border-color: #0734a4;
+    -fx-border-radius: 5;
+    -fx-opacity: 0.1;
+}
+.scn-3-btn-no-opacity:hover{
+    -fx-cursor: pointer;
+    -fx-background-color: #3293ed;
+    -fx-text-fill: white;
+    -fx-opacity: 0.1;
+}
+.scn-3-img {
+    -fx-border-width: 4;
+    -fx-border-color: black;
+}
+.summary-img {
+    -fx-max-width: 281;
+    -fx-max-height: 402;
+}
+.menu-username{
+    -fx-font-size:20 ;
+    -fx-font-weight: 700;
+
+}
+.menu-id-seat{
+    -fx-font-family: "Franklin Gothic Medium";
+    -fx-font-size: 16;
+    -fx-font-weight:400 ;
+}
+.scn-3-author{
+    -fx-font-family: "Franklin Gothic Demi";
+    -fx-font-size: 18;
+    -fx-font-weight:400 ;
+    -fx-font-style: italic;
+}
+.scn-4-2-pane{
+    -fx-background-color: #ded3a8;
+}
+.scn-4-book-pane {
+    -fx-background-color: #e6eaf4;
+}
+.scn-4-book-pane-2{
+    -fx-background-color: white;
+}
+.scn-4-btn{
+    -fx-cursor: hand;
+    -fx-font-family: "Franklin Gothic Medium";
+    -fx-font-weight: 700;
+    -fx-font-size: 22;
+    -fx-min-width: 140;
+    -fx-min-height: 35;
+    -fx-background-color: #dbeecf;
+    -fx-border-color: #55ed59;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+.scn-4-btn:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #00be06;
+}
+.scn-5-btn{
+    -fx-cursor: hand;
+    -fx-font-family: "Franklin Gothic Medium";
+    -fx-font-weight: 700;
+    -fx-font-size: 22;
+    -fx-min-width: 140;
+    -fx-min-height: 35;
+    -fx-background-color: #edcbcb;
+    -fx-border-color: #d71f2b;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+.scn-5-btn:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #901515;
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libraryrental.libraryrental.MenuController">
+   <children>
+      <DialogPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="187.0" prefWidth="900.0" styleClass="scn-2-header-pane">
+          <header>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="187.0" prefWidth="922.0" styleClass="scn-2-pane">
+               <children>
+                  <Pane layoutX="-2.0" layoutY="-5.0" prefHeight="194.0" prefWidth="900.0" styleClass="scn-2-header-pane">
+                     <children>
+                        <ImageView fx:id="userImage" fitHeight="123.0" fitWidth="125.0" layoutX="29.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@default.png" />
+                           </image></ImageView>
+                        <Label fx:id="usernameLabel" alignment="CENTER" layoutX="19.0" layoutY="150.0" prefHeight="26.0" prefWidth="138.0" styleClass="menu-username" text="Username">
+                           <font>
+                              <Font name="Franklin Gothic Medium" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="214.0" layoutY="33.0" prefHeight="58.0" prefWidth="478.0" text="DULC Library Rental">
+                           <font>
+                              <Font name="Dubai Bold" size="38.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="libidLabel" alignment="CENTER" layoutX="202.0" layoutY="145.0" prefHeight="35.0" prefWidth="80.0" styleClass="menu-id-seat" text="Student number :" />
+                        <Label fx:id="seatnoLabel" layoutX="326.0" layoutY="146.0" prefHeight="35.0" prefWidth="110.0" styleClass="menu-id-seat" text="Seat Number">
+                           <font>
+                              <Font name="Franklin Gothic Medium" size="12.0" />
+                           </font></Label>
+                        <Button layoutX="724.0" layoutY="115.0" mnemonicParsing="false" onAction="#logout" prefHeight="48.0" prefWidth="152.0" styleClass="scn-2-logout" text="Logout" textAlignment="CENTER" textFill="#e34710">
+                           <font>
+                              <Font name="Franklin Gothic Medium" size="14.0" />
+                           </font>
+                        </Button>
+                        <Pane layoutX="818.0" layoutY="22.0" prefHeight="63.0" prefWidth="68.0" styleClass="cart-pane">
+                           <children>
+                              <ImageView fitHeight="42.0" fitWidth="39.0" layoutX="11.0" layoutY="11.0" onMouseClicked="#checkoutToCart" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                                 <image>
+                                    <Image url="@shopping_cart_PNG7.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Label alignment="CENTER" layoutX="299.0" layoutY="145.0" prefHeight="36.0" prefWidth="11.0" text="|">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" layoutX="202.0" layoutY="115.0" prefHeight="35.0" prefWidth="80.0" styleClass="menu-id-seat" text="LIBRARY ID" />
+                        <Label layoutX="326.0" layoutY="115.0" prefHeight="35.0" prefWidth="110.0" styleClass="menu-id-seat" text="SEAT NUMBER" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+          </header>
+          <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+          </content>
+          <expandableContent>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+          </expandableContent>
+      </DialogPane>
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="100.0" layoutY="200.0" pickOnBounds="true" styleClass="book-img">
+         <image>
+            <Image url="@atomic.jpg" />
+         </image></ImageView>
+      <Button layoutX="100.0" layoutY="410.0" mnemonicParsing="false" onAction="#changeToBookOverview" prefHeight="26.0" prefWidth="150.0" styleClass="scn-2-btn" text="Atomic Habits" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Medium Cond" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="350.0" layoutY="200.0" pickOnBounds="true" styleClass="book-img">
+         <image>
+            <Image url="@dogman.jpg" />
+         </image></ImageView>
+      <Button layoutX="350.0" layoutY="410.0" mnemonicParsing="false" onAction="#changeToBookOverview" prefHeight="26.0" prefWidth="150.0" styleClass="scn-2-btn" text="Dog Man" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Medium Cond" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="600.0" layoutY="200.0" pickOnBounds="true" styleClass="book-img">
+         <image>
+            <Image url="@meinkampf.jpg" />
+         </image></ImageView>
+      <Button layoutX="600.0" layoutY="410.0" mnemonicParsing="false" onAction="#changeToBookOverview" prefHeight="26.0" prefWidth="150.0" styleClass="scn-2-btn" text="Mein Kampf" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Medium Cond" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="100.0" layoutY="450.0" pickOnBounds="true" styleClass="book-img">
+         <image>
+            <Image url="@simpsons.jpg" />
+         </image></ImageView>
+      <Button layoutX="100.0" layoutY="660.0" mnemonicParsing="false" onAction="#changeToBookOverview" prefHeight="26.0" prefWidth="150.0" styleClass="scn-2-btn" text="Simpson V" wrapText="true">
+       <font>
+           <Font name="Franklin Gothic Medium Cond" size="12.0" />
+       </font></Button>
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="350.0" layoutY="450.0" pickOnBounds="true" styleClass="book-img">
+         <image>
+            <Image url="@acourt.jpg" />
+         </image></ImageView>
+      <Button layoutX="350.0" layoutY="660.0" mnemonicParsing="false" onAction="#changeToBookOverview" prefHeight="26.0" prefWidth="150.0" styleClass="scn-2-btn" text="A Court Of Mist And Fury">
+         <font>
+            <Font name="Franklin Gothic Medium Cond" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="600.0" layoutY="450.0" pickOnBounds="true" styleClass="book-img">
+         <image>
+            <Image url="@JavaOOP.jpeg" />
+         </image></ImageView>
+      <Button layoutX="600.0" layoutY="660.0" mnemonicParsing="false" onAction="#changeToBookOverview" prefHeight="26.0" prefWidth="150.0" styleClass="scn-2-btn" text="OOP With Java">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

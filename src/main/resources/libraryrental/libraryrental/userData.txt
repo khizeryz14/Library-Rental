@@ -1,0 +1,5 @@
+1;1;1;1;default.png
+Mohsin;22110006079;01;mk29;mohsin.png
+Shafin;22110006144;02;devops;shafin.png
+Khizer;22110006067;03;coder;khizer.png
+Junaid;22110006098;04;frontend;junaid.png
